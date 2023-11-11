@@ -1,0 +1,10 @@
+﻿services:
+  webapi:
+    image: webapi
+    build:
+      context: .
+      dockerfile: WebAPI/Dockerfile
+  sql_server:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+  redis:
+    image: redis:latest
