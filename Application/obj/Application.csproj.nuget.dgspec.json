@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\programming\\Shop\\Shop\\Application\\Application.csproj": {}
+    "D:\\projects\\shop\\Application\\Application.csproj": {}
   },
   "projects": {
-    "D:\\programming\\Shop\\Shop\\Application\\Application.csproj": {
+    "D:\\projects\\shop\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programming\\Shop\\Shop\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\projects\\shop\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\programming\\Shop\\Shop\\Application\\Application.csproj",
+        "projectPath": "D:\\projects\\shop\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\_Amirex_\\.nuget\\packages\\",
-        "outputPath": "D:\\programming\\Shop\\Shop\\Application\\obj\\",
+        "outputPath": "D:\\projects\\shop\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\_Amirex_\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -62,12 +62,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\_Amirex_\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

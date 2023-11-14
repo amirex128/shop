@@ -11,7 +11,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9B80044E-1684-47DD-8DAC-B08660219EC9}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
+		db_add.cmd = db_add.cmd
+		db_drop.cmd = db_drop.cmd
+		db_remove.cmd = db_remove.cmd
+		db_update.cmd = db_update.cmd
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerService", "WorkerService\WorkerService.csproj", "{90CAFAC7-74D6-4F15-9F2A-6DE7A3F6195E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,5 +41,9 @@ Global
 		{CA897AB5-C308-48A9-A2FA-B8DAF05090B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA897AB5-C308-48A9-A2FA-B8DAF05090B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA897AB5-C308-48A9-A2FA-B8DAF05090B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90CAFAC7-74D6-4F15-9F2A-6DE7A3F6195E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CAFAC7-74D6-4F15-9F2A-6DE7A3F6195E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CAFAC7-74D6-4F15-9F2A-6DE7A3F6195E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CAFAC7-74D6-4F15-9F2A-6DE7A3F6195E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

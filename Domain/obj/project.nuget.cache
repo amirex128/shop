@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "uxWKWHwliO0xPTPWoByi4gCm1bRKXCnjDKsqMJEkpcVZmI1As5kEOJFoGmeZ4gn5CNBfCXZmRcuzBTWDF2N/bQ==",
+  "dgSpecHash": "vTJcFoxCL+0gVHLPWVa3WCiykJEx5/QkmyuRqDLEYPDts5w/WPMieHrJSTt7XCFiGWlpHDLolZP6YsYgz4EQKA==",
   "success": true,
-  "projectFilePath": "D:\\programming\\Shop\\Shop\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\projects\\shop\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\_Amirex_\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\_Amirex_\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\_Amirex_\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    "C:\\Users\\_Amirex_\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\_Amirex_\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\_Amirex_\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\_Amirex_\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }

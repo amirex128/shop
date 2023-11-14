@@ -7,13 +7,19 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Enums\" />
       <Folder Include="Events\" />
       <Folder Include="Exceptions\" />
+      <Folder Include="Interfaces\" />
     </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="MediatR" Version="12.1.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.Extensions.Identity.Stores">
+        <HintPath>C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\7.0.13\Microsoft.Extensions.Identity.Stores.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>

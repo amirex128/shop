@@ -4,7 +4,21 @@
     build:
       context: .
       dockerfile: WebAPI/Dockerfile
-  sql_server:
+    ports:
+      - "8888:80"
+    depends_on:
+      - sqlserver
+      - redis
+
+  sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "dgd4f45ds4f5@fds#$"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1533:1433"
+
   redis:
     image: redis:latest
+    ports:
+      - "6479:6379"
